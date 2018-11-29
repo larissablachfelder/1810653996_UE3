@@ -13,7 +13,7 @@ public class Taschenrechner
         return a - b;
     }
 
-    public static double Divison(double a, double b)
+    public static double Division(double a, double b)
     {
         return a/b;
     }

@@ -8,6 +8,17 @@ public class Aufgabe2
     {
         partialString((JOptionPane.showInputDialog("Bitte beliebigen Text eingeben: ")));
 
+        //aufgabe3
+
+        System.out.println(Taschenrechner.Addition(5.7,6.3));
+        System.out.println(Taschenrechner.Subtraktion(15.6,7.4));
+        System.out.println(Taschenrechner.Multiplikation(5.4,6.9));
+        System.out.println(Taschenrechner.Division(15.6,3.2));
+
+        System.out.println(Taschenrechner.Addition(5,6));
+        System.out.println(Taschenrechner.Subtraktion(15,7));
+        System.out.println(Taschenrechner.Multiplikation(5,6));
+        System.out.println(Taschenrechner.Division(15,3));
     }
 
     public static void partialString(String a)
